@@ -1,0 +1,368 @@
+/*Fonts*/
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('Raleway-LightItalic.eot');
+	src: url('Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-LightItalic.woff') format('woff'),
+		url('Raleway-LightItalic.ttf') format('truetype'),
+		url('Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('Raleway-Medium.eot');
+	src: url('Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Medium.woff') format('woff'),
+		url('Raleway-Medium.ttf') format('truetype'),
+		url('Raleway-Medium.svg#Raleway-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('Raleway-Light.eot');
+	src: url('Raleway-Light.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Light.woff') format('woff'),
+		url('Raleway-Light.ttf') format('truetype'),
+		url('Raleway-Light.svg#Raleway-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('PlayfairDisplay-Italic.eot');
+	src: url('PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+		url('PlayfairDisplay-Italic.woff') format('woff'),
+		url('PlayfairDisplay-Italic.ttf') format('truetype'),
+		url('PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('PlayfairDisplay-Regular.eot');
+	src: url('PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+		url('PlayfairDisplay-Regular.woff') format('woff'),
+		url('PlayfairDisplay-Regular.ttf') format('truetype'),
+		url('PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('PlayfairDisplay-Bold.eot');
+	src: url('PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+		url('PlayfairDisplay-Bold.woff') format('woff'),
+		url('PlayfairDisplay-Bold.ttf') format('truetype'),
+		url('PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*CSS styling for standards starts below*/
+
+i{
+	font-style: italic;
+}
+
+b{
+	font-weight: bold;
+}
+
+u{
+	text-decoration: underline;
+}
+
+p, html{
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #2d2d2d;
+	line-height: 200%;
+	text-align: center;
+	font-style: normal;
+}
+
+h1{
+	font-family: "Playfair Display", serif; 
+	font-size: 3rem;
+	text-align: center;
+	line-height: 200%;
+}
+
+h3{
+	font-family: "Playfair Display", serif; 
+	font-size: 2rem;
+	text-align: center;
+	line-height: 200%;
+	font-style: normal;
+	font-color: #2d2d2d;
+	margin: 1% 0;
+}
+
+h4{
+	font-family: "Playfair Display", serif; 
+	font-size: 1.3rem;
+	text-align: center;
+	color: #e2574c;
+	line-height: 200%;
+}
+
+
+.clearfix:after{
+	content:'';
+	clear: both;
+	display: table;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1240px;
+	min-width: 480px;
+	width: 100%;
+}
+
+/*custom styling for body starts below*/
+
+header{
+	margin: 10px 10px;
+	height: 100%;
+	height: 50px;
+}
+
+.aloha-logo{
+	float: left;
+}
+
+.cart-icon{
+	float: right;
+}
+
+.cart-icon a:hover{
+	border-bottom: 3px solid #b64036;
+}
+
+header img{
+	height: 40px;
+}
+
+.banner{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2)100%), url(images/banner-girl.png) no-repeat center center, url(images/flower-bkgd.jpg) repeat-x center top;	
+	background-size: contain, contain, contain;
+	background-position-y: 0px, 60px, 0px;
+	height:300px;
+	position: relative;
+	min-width: 480px;
+}
+
+.banner-text{
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%); 
+	width: 100%;
+	color: white;
+}
+
+.banner-text p{
+	color: white;
+}
+
+.hand-crafted{
+	border-bottom: 2px solid #d7d7d7;
+}
+
+.hand-crafted-text{
+	margin: 4% 0;
+}
+
+.hand-crafted-text p{
+	padding: 0 10%;
+}
+
+.most-loved{
+	margin: 4% 0;
+}
+
+.products img {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.sign-up{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2)100%), url(images/wave-bkgd.jpg) no-repeat center bottom;
+	background-size: cover, cover;
+	padding: 2%;
+}
+
+.sign-up h3, .sign-up p{
+	color: white;
+}
+
+.sign-up p{
+	color: white;
+	padding: 0 10%;
+}
+
+form{
+	margin: 2% 0;
+	width: 100%
+}
+
+fieldset{
+	border: 2px solid white;
+	border-radius: 1rem;
+	background-color: white;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.your-email{
+	width: 70%;
+	margin: 0 0 0 1%;
+	float: left;
+	border-radius: 1rem;
+	padding: 1% 0;
+	border: none;
+	font-weight: bold;
+}
+
+.subscribe-button{
+	width: 29%;
+	float: right;
+	border-radius: 1rem;
+	background-color: #e2574c;
+	border: 1px solid red;
+	padding: 1% 0;
+	font-weight: bold;
+	color: white;
+}
+
+input[type="submit"]:hover{
+	background-color: #b64036;
+}
+
+footer{
+	background-color: #242424;
+	width: 100%;
+	padding: 2%;
+	display: inline-block;	
+}
+
+.left-footer{
+	margin: 2% 0 2% 2%;
+	width: 100%;
+	text-align: center;
+}
+
+.left-footer p {
+	color: white;
+	font-family: "Playfair Display", serif;
+}
+
+.address p{
+	color: grey;
+}
+
+aside{
+	margin: 2% 0 0 0;
+	text-align: center;
+	width: 100%
+}
+
+.right-footer li{
+	list-style-type: none;
+	line-height: 200%;
+	font-size: 1rem;
+}
+
+.right-footer a{
+   color: white;
+   text-decoration: none;
+}
+
+.right-footer a:hover{
+   color: #b64036;
+   text-decoration: underline;
+}
+
+/*RWD adjustments below*/
+
+@media screen and (min-width: 480px) {
+	.hand-crafted-text p{
+		padding: 0 18;
+	}
+	
+	.sign-up p{
+		padding: 0 18%;
+	}
+
+	section .products{
+		width: 50%;
+		height: auto;
+		float:left;
+	}
+	.products img {
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	footer{
+		text-align: left;
+	}
+
+	.left-footer{
+		float: left;
+		margin: 2% 0 2% 2%;
+		width: 75%;
+	}
+
+	.left-footer p{
+		text-align: left;
+	}
+
+	aside{
+		float: right;
+		text-align: left;
+		width: 23%
+	}
+}
+
+@media screen and (min-width: 600px) {
+	p, html{
+		font-size: 16px;
+	}
+	
+	.hand-crafted-text p{
+		padding: 0 21%;
+	}
+	
+	.sign-up p{
+		padding: 0 21%;
+	}
+
+	section .products{
+		width: 25%;
+		height: auto;
+		float:left;
+	}
+	.products img {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.left-footer{
+		margin: 2% 0 2% 2%;
+		width: 78%;
+	}
+	
+	aside{
+		width: 20%
+	}
+}
