@@ -48,7 +48,7 @@ Design Specifications:
 	The HEX code for orange brand colour is #e2574c (used for links, some headings, and buttons)
 	The HEX code for the link hover state colour is #b64036
 	The HEX code for the light grey border colour is #d7d7d7
-	The HEX code for the dark grey background colour is the footer is #242424
+	The HEX code for the dark grey background colour in the footer is #242424
 	
 	Screen Sizes:
 
